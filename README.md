@@ -29,6 +29,16 @@ The application will open in your default browser. You will see an input field w
 
 Try entering different binary numbers and observe the results.
 
+## 🛠️ Technologies Used
+The following technologies are used in this project:
+
+#### React
+#### HTML
+#### CSS
+#### JavaScript
+#### Typescript
+
+
 ## Contribution
 🤝 Contributions are welcome! If you encounter issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
