@@ -15,15 +15,16 @@ Clone the repository or download the files.
 
 Open the terminal and navigate to the project's root directory.
 
-Install project dependencies by running the following command:
-
-npm install
+### Install project dependencies by running the following command:
+-npm install
 or
-yarn install
-Start the application by running the following command:
+-yarn install
 
-npx jest for tests
-node 
+### Start the application by running the following command:
+-npx tsc to transpile typescript on dist
+-npx jest for tests
+-node/dist index.js to run de code
+
 The application will open in your default browser. You will see an input field where you can enter a binary number. Upon clicking the "Convert" button, the binary number will be converted to decimal, and the result will be displayed on the screen.
 
 Try entering different binary numbers and observe the results.
