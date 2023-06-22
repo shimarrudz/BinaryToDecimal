@@ -1,5 +1,7 @@
-# Binary to Decimal Converter
+# 🧮 Binary to Decimal Converter
 This is a simple project that allows you to convert binary numbers to decimal numbers using JavaScript and React.
+
+# 🔁 If you're interested, I have also implemented a similar project using TypeScript without React.
 
 ## Features
 Accepts input of binary numbers.
@@ -15,32 +17,24 @@ Open the terminal and navigate to the project's root directory.
 
 Install project dependencies by running the following command:
 
-Copy code
 npm install
 or
-
-Copy code
 yarn install
 Start the application by running the following command:
 
-sql
-Copy code
 npm start
 or
-
-sql
-Copy code
 yarn start
 The application will open in your default browser. You will see an input field where you can enter a binary number. Upon clicking the "Convert" button, the binary number will be converted to decimal, and the result will be displayed on the screen.
 
 Try entering different binary numbers and observe the results.
 
-Contribution
-Contributions are welcome! If you encounter issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
+## Contribution
+🤝 Contributions are welcome! If you encounter issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
+## License
+📝 This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 This project was developed based on a previous binary to decimal conversion project.
 Special thanks to the software development community for sharing knowledge and resources.
