@@ -22,9 +22,8 @@ or
 yarn install
 Start the application by running the following command:
 
-npm start
-or
-yarn start
+npx jest for tests
+node 
 The application will open in your default browser. You will see an input field where you can enter a binary number. Upon clicking the "Convert" button, the binary number will be converted to decimal, and the result will be displayed on the screen.
 
 Try entering different binary numbers and observe the results.
