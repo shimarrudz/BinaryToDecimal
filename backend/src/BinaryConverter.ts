@@ -19,17 +19,11 @@ class BinaryConverter implements IBinaryConverter {
       throw new Error("Número binário inválido.");
     }
 
-    const binaryDigits = binaryNumber.split("").reverse();
+    const digits = binaryNumber.split("").reverse();
 
-        // Fixing this for, converting to reduce method.
-    // for (let i = 0; i < binaryDigits.length; i++) {
-    //   const digit = parseInt(binaryDigits[i]);
-    //   decimalNumber += digit * Math.pow(2, i);
-    // }
-
-const decimalNumber = binaryDigits.reduce((acc, digit, i) => {
+const decimalNumber = digits.reduce((decimal, digit, idx) => {
   const decimalDigit = Number(digit);
-  return acc + decimalDigit * Math.pow(2, i);
+  return decimal + decimalDigit * Math.pow(2, idx);
 }, 0);
 
     return decimalNumber;

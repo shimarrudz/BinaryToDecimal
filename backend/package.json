@@ -4,8 +4,7 @@
   "description": "Desafio Binario 2 proposto no primeiro dia.",
   "main": "index.js",
   "scripts": {
-    
-    "test": "echo \"Error: no test specified\" && exit 1 && jest --config jest.config.js"    
+    "test": "echo \"Error: no test specified\" && exit 1 && jest --config jest.config.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +19,8 @@
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     }
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
   }
 }
