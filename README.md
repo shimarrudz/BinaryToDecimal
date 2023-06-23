@@ -18,7 +18,7 @@ Open the terminal and navigate to the project's root directory.
 ### Install project dependencies by running the following command:
 -npm install
 or
--yarn install
+-yarn
 
 ### Start the application by running the following command:
 -npx tsc to transpile typescript on dist
