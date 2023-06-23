@@ -1,5 +1,9 @@
 import BinaryConverter from "./BinaryConverter";
 
+// Testar os tests
+// Arrumar os it´s
+// Testar todos os metodos de forma unitária de todas as possibilidades
+
 describe("Binary to Decimal Converter", () => {
   let binaryConverter: BinaryConverter;
 
@@ -7,14 +11,14 @@ describe("Binary to Decimal Converter", () => {
     binaryConverter = new BinaryConverter();
   });
 
-  it("should convert a valid binary number to decimal", () => {
+  it("should be able to convert a valid binary number to decimal", () => {
     const binaryNumber = "1101";
     const expectedDecimal = 13;
     const decimalNumber = binaryConverter.convertToDecimal(binaryNumber);
     expect(decimalNumber).toBe(expectedDecimal);
   });
 
-  it("should not convert then throw an error for an invalid binary number", () => {
+  it("should not be able to convert an invalid binary number", () => {
     const binaryNumber = "1234";
     expect(() => {
       binaryConverter.convertToDecimal(binaryNumber);
